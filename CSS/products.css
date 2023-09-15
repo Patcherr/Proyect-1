@@ -125,3 +125,10 @@ body {
 .product-button,.product-button2{
     margin-top: 10px;
 }
+
+@media (max-width: 280px){
+    .product-image img{
+        width: 100%;
+        height: auto;
+    }
+}
