@@ -11,27 +11,19 @@ body{
 }
 .container{
     width: 300px;
+    height: 300px;
     font-size: 15px;
     background-color: #015b70;
     color: #fff;
     border: 2px solid #000;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 20px;
     border: #000;
-    -webkit-border-radius:    ;
-    -moz-border-radius:    ;
-    -ms-border-radius:    ;
-    -o-border-radius:    ;
 }
-.button-details{
-    width: 50px;
-    height: 30px;
-    padding: 3px;
-    position: relative;
-    margin: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.title{
+    padding: 15px;
+    margin: 15px;
 }
