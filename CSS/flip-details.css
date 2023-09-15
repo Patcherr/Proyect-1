@@ -3,22 +3,38 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body {
+    background-image: url(../IMG/Beach.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
     font-family: sans-serif;
     min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0,213,255,1);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .card {
     width: 300px;
     height: 400px;
     perspective: 1000px;
+    margin: 20px;   
 }
   
 .card-inner {
@@ -48,10 +64,13 @@ body {
     overflow: hidden;
 }
 .card-front img{
-    max-height: 50vh;
+    max-height: 70vh;
 }
 .card-back {
-    background-color: #555;
+    background-image: url(../IMG/Backgrounded.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
     color: white;
     transform: rotateY(180deg);
     display: flex;

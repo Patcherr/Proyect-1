@@ -5,6 +5,8 @@
 }
 body {
     background-image:url(../IMG/Backgrounded.jpg);
+    background-position: center;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 100vh;
     display: flex;
@@ -98,24 +100,6 @@ body {
 }
 .product-button:hover {
     background-color: #1d3557;
-}
-
-.return-button{
-    background-color: #f3f0f0;
-    color: #000000;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    padding: 15px 10px;
-    border-radius: 2px;
-    cursor: pointer;
-    font-weight: bold;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-}
-
-.return-button:hover{
-    background-color: #7c3f44;
 }
 
 .product-image2{
