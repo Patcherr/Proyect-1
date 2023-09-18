@@ -115,25 +115,21 @@ body {
     bottom: 10px;
 }
 
-@media (max-width: 280px){
-
-    body{
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 768px){
+    .car{
+        width: 80%;
     }
+}
 
-    h1 {
-        font-size: 24px;
-    }
-
-    .container{
-        flex-direction: column;
-        align-items: center;
-    }
-
+@media (width <=300px){
     .card{
         width: 100%;
-        max-width: 280px;
-        margin: 10px;
+        margin: 0;
+        padding: 0;
     }
+
+    .card>* {
+        padding: 0 10px;
+    }
+
 }
