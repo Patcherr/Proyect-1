@@ -115,7 +115,7 @@ body {
     bottom: 10px;
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
     .car{
         width: 80%;
     }
@@ -123,9 +123,9 @@ body {
 
 @media (width <=300px){
     .card{
-        width: 100%;
-        margin: 0;
-        padding: 0;
+        width: 50%;
+        margin: 10;
+        padding: 10 50px;
     }
 
     .card>* {
