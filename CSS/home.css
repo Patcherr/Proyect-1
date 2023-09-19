@@ -15,7 +15,6 @@ body {
     background-image: url(../IMG/Beach.jpg);
     background-position: center;
     background-size: cover;
-    backdrop-filter: blur(2px);
     font-family: sans-serif;
     min-height: 100vh;
     width: 100%;
@@ -66,12 +65,13 @@ body {
 .card-front {
     background-color: #f1f1f1;
     overflow: hidden;
+    background-image: url(../IMG/Background\ Card.jpg);
+    background-position: center;
+    background-size: cover;
 }
-.card-front img{
-    max-height: 70vh;
-}
+
 .card-back {
-    background-image: url(../IMG/Backgrounded.jpg);
+    background-image: url(../IMG/Background\ Card.jpg);
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(10px);
