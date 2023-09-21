@@ -25,6 +25,7 @@ body {
 .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card {
@@ -139,7 +140,7 @@ p{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 740px){
     .container{
         padding-top: 60px;
         display: flex;
@@ -151,16 +152,24 @@ p{
     .nav-item{
         display: none;
     }
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 350px){
     .container{
         display: flex;
         justify-content: center;
-        align-items: center;        
+        align-items: center;     
     }
     .card{
-        width: 270px ;
+        width: 260px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
