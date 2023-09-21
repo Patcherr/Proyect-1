@@ -1,29 +1,30 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body {
-    background-image:url(../IMG/Backgrounded.jpg);
+    background-image:url(../IMG/Background\ Card.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 100vh;
+    width: 100%;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(125, 131, 133);
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
+    
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-card {
     display: flex;
+    justify-content: center ;
     flex-direction: column;
+    align-items: center;
     width: 350px;
     margin: 20px;
     background-color: #fff;
@@ -35,12 +36,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(179, 108, 108);
+    background-color: rgb(156, 142, 142);
     border-radius: 10px;
 }
 .product-image img {
     width: 50%;
     border-radius: 8px 8px 0 0;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
   
 .product-details {
@@ -88,16 +93,16 @@ body {
     font-weight: bold;
 }
 .product-button:nth-child(1){
-    background-color: #b85e66;
+    background-color: #b89093;
 }
 .product-button:nth-child(1):hover {
-    background-color: #7c3f44;
+    background-color: #ff0000;
 }
 .product-button2:nth-child(1){
-    background-color: #b85e66;
+    background-color: #b89093;
 }
 .product-button2:nth-child(1):hover{
-    background-color: #7c3f44;
+    background-color: #ff0000;
 }
 
 .product-image2{
@@ -105,11 +110,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(179, 108, 108);
+    background-color: rgb(156, 142, 142);
     border-radius: 10px;
 }
 .product-image2 img {
-    width:90%;
+    width:100%;
     border-radius: 8px 8px 0 0;
 }
 
@@ -126,9 +131,16 @@ body {
     margin-top: 10px;
 }
 
-@media (max-width: 280px){
-    .product-image img{
-        width: 100%;
-        height: auto;
+
+@media (max-width: 400px){
+    .product-card{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+               
+    }
+    .product-image .product-image2{
+        width: 270px ;
     }
 }
