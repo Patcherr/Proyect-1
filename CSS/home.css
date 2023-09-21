@@ -127,6 +127,9 @@ body {
         margin: 10;
         padding: 10 50px;
     }
+    h1{
+        
+    }
 
     .card>* {
         padding: 0 10px;
