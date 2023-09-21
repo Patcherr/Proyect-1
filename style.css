@@ -161,6 +161,7 @@ p{
 
 @media (max-width: 350px){
     .container{
+        width: 250px;
         display: flex;
         justify-content: center;
         align-items: center;     
