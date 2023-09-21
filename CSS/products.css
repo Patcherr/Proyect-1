@@ -42,10 +42,6 @@ body {
 .product-image img {
     width: 50%;
     border-radius: 8px 8px 0 0;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
   
 .product-details {
